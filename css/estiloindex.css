@@ -1,0 +1,709 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    background-color: var(--white-color);
+    overflow:scroll; 
+}
+
+:root{
+    --red-color: #a40101;
+    --cian-color:#2ca3ab;
+    --gray-color: #c4c4c4;
+    --orange-color:#f3610e;
+    --blue-color: #1d1b45;
+    --black-color: rgb(0, 0, 0);
+    --white-color: #ffffff;
+}
+
+h1, h2, h3{
+    font-family: 'Poppins', sans-serif;
+    color: var(--black-color);
+}
+a{
+    font-family: 'Poppins', sans-serif;
+    resize: 10px; 
+    color: var(--white-color);
+}
+
+p{
+    color: var(--gray-color);
+    text-align: justify;
+}
+
+
+.header{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row-reverse;
+align-content: center;
+justify-content: space-between;
+margin-left: 20px;
+margin-top: 25px;
+margin-right: 30px;
+width: 320px;
+
+    
+}
+#portada{
+    width: 320px;
+
+}
+.geo{
+    color: var(--orange-color);
+    fill: #f3610e;
+    background-color: #2ca3ab;
+}
+
+.boton-azul1 {
+
+    height: 40px;
+    
+    background-color: var(--blue-color);
+    border-radius: 20px;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    color:var(--white-color);
+    align-content: center;
+   position: relative;
+        
+     right: -355px;
+
+       
+    }
+
+    .boton-azul1 img{
+        color: var(--white-color);
+        font-size: 10px;
+        position: relative;
+        top: 80px;
+    }
+.boton-azul {
+
+ 
+    width: 185px;
+    height: 40px;
+    background-color: var(--blue-color);
+    border-radius: 20px;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    color:var(--white-color);
+    align-content: center;
+   position: relative;
+        text-decoration: none;
+       left: -250px;
+
+       
+    }
+    .botonr{
+
+    
+        background-color: var(--blue-color);
+        border-radius: 20px;
+        
+         
+
+                     
+        }
+       
+.boton-azul img{
+    color: var(--white-color);
+    font-size: 10px;
+    position: relative;
+ 
+}
+    .direccion{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        left:150px;
+        top:-60px;
+        fill: var(--orange-color);
+    }
+    .direccion img{
+        fill: var(--orange-color);
+    }  
+
+.llamada{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    left:-130px;
+    top:-150px;
+    fill: var(--orange-color);
+    background-color: #ffffff;
+ 
+}
+.llamada p{
+    resize: 10px;
+}
+.iconoc{
+font-size: 35px;
+background-color: #ffffff;
+color: #a40101;
+}
+.iconllamada{
+    margin-top: 10px;
+    font-size: 10px;
+    color:var(--white-color);
+    border-radius: 50%;
+    border: 5px solid var(--orange-color);
+    background-color:var(--orange-color);
+}
+
+.icondireccion{
+    margin-top: 10px;
+    font-size: 10px;
+    color:var(--white-color);
+    border-radius: 50%;
+    border: 5px solid var(--orange-color);
+    background-color:var(--orange-color);
+}
+
+.telefono
+{
+fill:var(--red-color);
+width: 20px;
+}
+
+
+.header p{
+    color: var(--gray-color);
+
+}
+ 
+.logo {
+   max-width: 10px;
+   position: relative;
+    top: -80px;
+    right: 130px;
+
+}
+
+.vacuna{
+    width: 50px;
+    height: 50px;
+    position: relative;
+   top:-45px;
+   left: -850px;
+}
+.vacuna img{
+    color: #f3610e;
+}
+
+.linea img{
+ 
+    width: 300px;
+    height: 50px;
+   position: relative;
+   left:300px;
+   top:-150px;
+}
+
+.portada{
+    width: 680px;
+   display: flex;
+   justify-content: center;
+   position: absolute;
+   top:150px;
+}
+
+#banner{
+    display: flex;
+    flex-wrap: wrap;
+flex-direction: column;
+
+justify-content: space-around;
+
+
+}
+
+.lema{
+    font-size: 15px;
+    position: relative;
+ top:-120px;
+ left: -80px;
+
+}
+.covid{
+    font-size: 20px;
+    position: relative;
+    display: flex;
+justify-content: flex-start;
+top:-170px;
+left: 150px;
+
+}
+
+.botoniniciar{
+    font-size: 20px;
+    width: 185px;
+    position: relative;
+    display: flex;
+justify-content: flex-start;
+margin-top: 0px;
+
+margin-left: 400px;
+top:-150px;
+
+}
+.lema h1{
+    color: var(--orange-color);
+  
+
+}
+.lema h2{
+color:var(--black-color);
+
+}
+
+.franja1 img{
+    width: 680px;
+   
+   
+    display: flex;
+    position: relative;
+    top:-135px;
+   
+}
+
+
+.fondo{
+    width: 100%;
+    height: auto;
+   display: flex;
+   justify-content: center;
+   position: absolute;
+    opacity:0.2;
+filter:alpha(opacity=20); /* For IE8 and earlier */     
+            
+ 
+}
+
+
+.seccion{
+    width: 680px;
+  height: 1200px;
+    display: flex;
+    justify-content: space-between;
+ position: relative;
+ top:-130px;
+ 
+}
+
+.signo h1{
+  
+   
+    resize: 10px;
+  
+    }
+
+
+.q{
+    width: auto;
+}
+
+
+.info img,i
+       
+        { 
+            border-radius: 50%;
+         
+            width: 20px;
+        
+        }
+
+        .info{
+            padding: 10px;
+            margin: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .info p{
+            padding: 5px;
+            margin: 5px;
+            
+            color: var(--black-color);
+            resize: 8px;
+          
+            }
+     .lista{
+         width: 500px;
+     }  
+     
+      
+       
+       
+       
+
+ .quehacer {
+     width: auto;
+    
+ }  
+
+ 
+
+.titulos{
+    background-color:#1b1b1b;
+    width: 680px;
+   
+    margin-bottom: 0;
+    padding-bottom: 0;
+    position: relative;
+    top:-800px;
+ 
+    }
+
+    .titulos h2{
+        background-color:#030211;
+        height: 200%;
+        width: 100%;
+        color: var(--white-color);
+        }
+footer{
+    display: flex;
+margin-top: 0;
+   width: 630px;
+   position: relative;
+   top:-825px;
+}
+.foot{
+    width:630px;
+    background-color:var(--black-color);
+   
+    display: flex;
+    justify-content:center;
+    padding: 2rem;
+   
+    text-align: center;
+  
+}
+
+.foot h3{
+    display: flex;
+    justify-content: center;
+   color:var(--white-color);
+   
+    
+}
+.main{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+
+/*resolución tableta*/
+@media screen and (min-width: 320px) {
+
+   .direccion{
+    font-size: 20px;
+position: relative;
+left:300px;
+font-size: 20px;
+   }
+   .llamada{
+    font-size: 20px;
+    position: relative;
+    top: -165px;
+   }
+    .boton-azul1{
+    
+        position: relative;
+        right:-270px;
+        top: 120px;
+        font-size: 20px;
+    }
+    
+    .seccion{
+        width: 720px;
+        position: relative;
+        top: -130px;
+        display: flex;
+     
+    }
+    .info{
+        flex-direction:column;
+        -content: space-around;
+
+    }
+    .quehacer{
+        position: relative;
+        top: -600px;
+    }
+    .portada{
+        width: 720px; 
+        top: 200px; 
+    }
+    .franja1{
+        position: relative;
+        top: -130px;
+    }
+    .franja1 img{
+        width: 720px;
+        top: 0px;
+    }
+    .lema{
+        position: relative;
+        left: 20px;
+    }
+    .titulos{
+        width: 720px;
+        top: -800px;
+    }
+    .foot{
+        width: 720px;
+        position: relative;
+        top: 10px;
+    }
+    footer{
+        width: 720px;
+    }
+     
+        }
+
+ /*resolución tableta*/
+ @media screen and (min-width: 768px) {
+
+  
+    .direccion{
+        font-size: 20px;
+    position: relative;
+    left:300px;
+    font-size: 20px;
+       }
+       .llamada{
+        font-size: 20px;
+        position: relative;
+        top: -165px;
+       }
+        .boton-azul1{
+        
+            position: relative;
+            right:-540px;
+            top: 30px;
+            font-size: 20px;
+        }
+        
+        .seccion{
+            width: 900px;
+            display: flex;
+          
+    justify-content: space-around;
+    text-align: center;
+         
+        }
+              
+        .portada{
+            width: 900px; 
+            top: 160px; 
+        }
+        .franja1{
+            position: relative;
+            top: -100px;
+        }
+        .franja1 img{
+            width: 900px;
+            top: 0px;
+        }
+        .lema{
+            position: relative;
+            left: 20px;
+        }
+        .titulos{
+            width: 900px;
+            top: -800px;
+        }
+        .foot{
+            width: 900px;
+            position: relative;
+            top: 10px;
+        }
+        footer{
+            width: 900px;
+        }
+ 
+    }
+/*resolución portatil*/
+@media screen and (min-width: 1024px) {
+   
+    .direccion{
+        font-size: 20px;
+    position: relative;
+    left: 300px;
+    font-size: 20px;
+       }
+       .llamada{
+        font-size: 20px;
+        position: relative;
+        top: -165px;
+        left: 470px;
+       }
+        .boton-azul1{
+        
+            position: relative;
+            right:-740px;
+            top: 0px;
+            font-size: 20px;
+        }
+        
+        .seccion{
+            width: 1150px;
+            display: flex;
+       
+        }
+           .info{
+               display: flex;
+               justify-content: space-between;
+            
+           }   
+           .lista{
+            width: 500px;
+           }
+           .quehacer{
+       width: 500px;
+           }
+        .portada{
+            width: 1150px; 
+            top: 160px; 
+        }
+        .franja1{
+            position: relative;
+            top: -100px;
+        }
+        .franja1 img{
+            width: 1150px;
+            top: -35px;
+        }
+        .lema{
+            position: relative;
+            left: 20px;
+            font-size: 30px;
+        }
+        .covid{
+            font-size: 40px;
+        }
+        .titulos{
+            width: 1150px;
+            top: -800px;
+        }
+        .foot{
+            width: 1150px;
+            position: relative;
+            top: 10px;
+        }
+        footer{
+            width: 1150px;
+        }
+ .linea img{
+     width: 800px;
+     left: 750px;
+ }
+
+}
+/*pantalla grande*/
+@media screen and (min-width: 1200px) {
+    .direccion{
+        font-size: 20px;
+    position: relative;
+    left: 400px;
+    font-size: 20px;
+       }
+     
+       .llamada{
+        font-size: 20px;
+        position: relative;
+        top: -165px;
+        left: 640px;
+       }
+       .iconllamada{
+        font-size: 25px;
+    }
+    .icondireccion{
+        font-size: 25px;
+    }
+        .boton-azul1{
+        
+            position: relative;
+            right:-940px;
+            top: 0px;
+            font-size: 25px;
+        }
+        .botoniniciar{
+            font-size: 30px;
+            position: relative;
+            top: -200px;
+        }
+        .seccion{
+            width: 1350px;
+            display: flex;
+       
+        }
+           .info{
+               display: flex;
+               justify-content: space-between;
+            
+           }   
+           .lista{
+            width: 500px;
+            font-size: 40px;
+         position: relative;
+         left: -400px;
+           }
+           .quehacer{
+       width: 500px;
+       font-size: 40px;
+       left: 300px;
+           }
+        .portada{
+            width: 1350px;
+            top: 160px; 
+        }
+        .franja1{
+            position: relative;
+            top: -100px;
+        }
+        .franja1 img{
+            width: 1350px;
+            top: -35px;
+        }
+        .lema{
+            position: relative;
+            left: 20px;
+            font-size: 30px;
+        }
+        .covid{
+            font-size: 40px;
+        }
+        .titulos{
+            width: 1350px;
+            top: -420px;
+            font-size: 30px;
+        }
+        .foot{
+            width: 1350px;
+            position: relative;
+            top:380px;
+         
+        }
+        footer{
+            width: 1350px;
+            font-size: 30px;
+        }
+ .linea img{
+     width: 800px;
+     left: 750px;
+ }
+}

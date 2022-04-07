@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    background-color: #ffffff;
+    width: 100%;
+    height: auto;
+    overflow:scroll; 
+   position: absolute;
+}
+
+:root{
+    --red-color: #a40101;
+    --cian-color:#2ca3ab;
+    --gray-color: #c4c4c4;
+    --orange-color:#f3610e;
+    --blue-color: #1d1b45;
+    --black-color: rgb(0, 0, 0);
+    --white-color: #ffffff;
+}
+
+h1, h2,h3{
+    font-family: 'Poppins', sans-serif;
+    color: dimgrey;
+    text-align: center;
+}
+
+p{
+    color: var(--gray-color);
+    text-align: justify;
+}
+
+a{
+    font-family: 'Poppins', sans-serif;
+    resize: 10px; 
+    color: var(--white-color);
+}
+
+
+.filtro{
+    width: 1000px;
+    height:1200px;
+ 
+   position: relative;
+    opacity:0.6;
+filter:alpha(opacity=20); 
+position: absolute;
+            
+}
+
+.logo{
+   
+
+   align-content: center;
+   align-items: center;
+   
+}
+.logo img{
+    margin-top: 10px;
+   margin-left: 50px;
+   position: relative;
+   left: 50px;
+  
+}
+.logo p{
+    color: var(--black-color);
+    text-align: center;
+ 
+    
+}
+
+.boton-azul {
+
+ 
+    height: 40px;
+    width: 100px;
+        background-color: var(--blue-color);
+        color: #ffffff;
+        font-weight: bold;
+        padding: 0.5rem 1rem;
+        cursor: pointer;
+        color:var(--white-color);
+        position: relative;
+       left:280px;
+       top:-60px;
+       cursor: pointer;
+       font-size: 20px;
+    }
+    .boton-naranja {
+
+        font-size: 20px;
+        height: 40px;
+        width: 120px;
+            background-color: var(--orange-color);
+            color: #ffffff;
+            font-weight: bold;
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+            color:var(--white-color);
+            text-align: center;
+            align-content: center;
+            position: relative;
+            left: 110px;
+            top: -20px;
+            cursor: pointer;
+        }
+.boton-azul img{
+    color: var(--white-color);
+    
+}
+
+.registrar{ 
+    background-color: var(--white-color);
+    
+    width: 500px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 570px ;
+    border: 1px solid var(--gray-color);
+    box-shadow: 10px 10px 10px var(--gray-color);
+    position: relative;
+    top: 300px;
+    left: -280px;
+    cursor: pointer;
+    cursor: pointer;
+    grid-area: registro;
+  
+}
+
+
+
+.formulario{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.formulario input{
+    border-radius: 45px;
+}
+
+.form-group{
+    text-align: center;
+}
+
+
+  
+    /*resolución tableta*/
+    @media screen and (min-width: 768px) {
+        .container-grid{
+        grid-template-columns: 200px auto;
+        grid-template-rows: 100 pxauto ;
+        grid-template-areas: 
+        "registro ";
+    
+         }
+        .filtro{
+            width: 1600px;
+            height: 1500px;
+        }
+        .registrar{
+            width: 800px;
+            height: 350px; 
+            position: relative;
+            top: 460px;
+            left:30px;
+            font-size: 20px;
+        }
+        .boton-naranja{
+width: 140px;
+height: 50px;
+font-size: 30px;
+position: relative;
+left:150px ;
+        }
+        .boton-azul{
+            width: 140px;
+            height: 50px;
+            font-size: 30px;
+            position: relative;
+            top: -65px;
+left:380px ;
+        }
+        .logo img{
+            width: 350px;
+            position: relative;
+            left: 120px;
+        }
+        }
+    /*resolución portatil*/
+@media screen and (min-width: 1024px) {
+    .container-grid{
+    grid-template-columns: 200px auto;
+    grid-template-rows: 100 pxauto ;
+    grid-template-areas: 
+    "registro ";
+
+     }
+    .filtro{
+        width: 1600px;
+        height: 1200px;
+    }
+    .registrar{
+        width: 800px;
+        height: 350px; 
+        position: relative;
+        top: 300px;
+    }
+    }
+  /*pantalla grande*/
+  @media screen and (min-width: 1200px) {
+    .container-grid{
+    grid-template-columns: 400px auto;
+    grid-template-rows: 100 pxauto ;
+    grid-template-areas: 
+    "registro ";
+
+     }
+    .filtro{
+        width: 1600px;
+        height: 970px;
+    }
+    .registrar{
+        width: 800px;
+        height: 350px; 
+        position: relative;
+        top: 200px;
+    }
+    }
+
+    @keyframes animacion {  
+        0% {transform:translateX(100px) rotate(100deg);}
+        10% {transform:translateX(-80px) rotate(-80deg);}
+        90% {transform:translateX(360px) rotate(360deg);}
+        100% {transform:translateX(360px) rotate(360deg);}
+        }
